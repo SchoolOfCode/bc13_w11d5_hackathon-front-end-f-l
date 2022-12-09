@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+.header-light {
+    background-color: beige;
+}
+
+.header-dark {
+    background-color: black;
+}
+
+.header-dark > h1 {
+    color: white;
+}
